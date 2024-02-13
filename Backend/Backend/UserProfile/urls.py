@@ -1,6 +1,10 @@
-from django.contrib import admin
-from django.urls import path, include
+"""
+    Urls registration
+"""
+
+from django.urls import path
 from .views import create_user
+
 urlpatterns = [
-    path('register',create_user,name='test'),
+    path("register", create_user, name="test"),
 ]

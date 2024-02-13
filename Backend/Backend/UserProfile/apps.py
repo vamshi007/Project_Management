@@ -1,3 +1,6 @@
+"""
+    User Profile application
+"""
 from django.apps import AppConfig
 
 
