@@ -10,6 +10,10 @@ class ProjectStateSerializers(serializers.ModelSerializer):
         fields = "__all__"
 
     def validate_project_name(self, value):
+        """
+        :param value: project name
+        :return:
+        """
         if len(value) > 3:
             return value
         else:

@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class ProjectStateModel(models.Model):
     project_name = models.CharField(max_length=30)
